@@ -13,6 +13,7 @@ class CustomTextField extends StatelessWidget {
       height: sizeV.height * 0.08,
       width: sizeV.width * 0.46,
       child: TextField(
+        controller: editingController,
         style: TextStyle(
           color: Colors.white,
           fontWeight: FontWeight.bold,
